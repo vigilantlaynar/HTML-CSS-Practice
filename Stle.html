@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+    #semester
+    {
+        background-color: #c7ff33;
+        color: black;
+        padding: 3px;
+            border:1px solid red
+    }
+    #marks
+    {
+        text-align: center;
+        border: 2px solid#fff;
+            
+        background-color: #cdcdcd;
+        color: brown;
+        border-collapse: collapse;
+        
+    }
+    .box{
+        background-color:#ededed;
+        border: 1px solid blue;/
+        width:300px;
+        overflow: auto
+    }
+#expenses{
+ text-align:right;                                                                                              
+ }
+div {
+color:blue;
+background-color:#ececec;
+}
+div p,table{
+color:blue;
+margin-left:0;
+}
+p    {
+margin-left:100px;
+font-family:jokerman;
+font-size:19px;
+border-top:16px solid orange;
+border-bottom:16px solid purple;
+border-left:16px solid black;
+border-right:16px solid lightgreen;
+padding:120px;
+background-color:#FF0000;
+color:yellow;
+width:800px;
+text-align:justify;
+}
+img{
+border:2px solid blue;
+border-radius:25px;
+margin-left:25px;
+
+}
+ul{
+  list-style-type:none;
+  color:green;
+  border:2px solid blues;
+  font-size:150%;
+}
+
+</style>
+<title>Internally Styling</title>
+</head>
+<body style="background-color:lightyellow">
+<h1 style="color:#0000FF;text-align:center">Styling Web Pages</h1>
+<p >Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a<br> document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.<br>In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the markup itself.
+
+Selectors may apply to:
+
+all elements of a specific type, e.g. the second-level headers h2
+<span style="color:black;text-decoration:underline black;font-size:21px">elements specified by attribute, in particular:</span>
+id: an identifier unique within the document
+class: an identifier that can annotate multiple elements in a document
+elements depending on how they are placed relative to others in the document tree.
+Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters and underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single element.</p>
+
+<ul>
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ul>
+<div>
+<p> this is a paragraph</p>
+<table border="2">
+<tr>
+<td>html</td>
+<td>css</td>
+</tr>
+<tr>
+<td>phase1</td>
+<td>phase2</td>
+</tr>
+</table>
+</div>
+<img src="Charming-Windows-Vista-Themes-Wallpapers-73-In-windows-tablet-computer-with-Windows-Vista-Themes-Wallpapers.jpg" width="30%">
+<p>Today's Expenses</p>
+    <p id="expenses" class="box">123.45<br>
+21.56</p>
+    <div class="box">
+    This is inside a box defined as a CSS class.</div>
+    <table id="semester">
+<tr><th>Semester</th><th>Subject</th></tr>
+<td>S1</td><td>PDS,Physics</td>
+        <tr><td>S2</td><td>ADS,DBMS</td></tr>
+        <tr><td>S3</td><td>ADBMS,Maths</td></tr>
+        <tr><td>S4</td><td>PHP,Chemistry</td></tr>
+            </table>
+    <table id="marks">
+    <tr><th>Subject</th><th>Marks</th></tr>
+         <tr><th>Physics</th><th>77</th></tr>
+         <tr><th>ADS</th><th>88</th></tr>
+         <tr><th>DBMS</th><th>87</th></tr>
+         <tr><th>PDS</th><th>53</th></tr>
+         <tr><th>ADBMS</th><th>78</th></tr>
+    </table>
+</body>
+</html>
